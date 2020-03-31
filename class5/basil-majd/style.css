@@ -1,0 +1,134 @@
+/*// Dear instructor,
+Sorry for the mess. When I wrote this, only God and I understood what I was doing
+Now, after I submited it, God only knows. Howerver, it does its job!*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    width: 25%;
+    padding: 300px 20px 0 50px;
+    height: 150vh;
+    background-color: #3d4f5d ;
+    float: left;
+    text-align: right;
+
+}
+header h1 {
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+header p {
+    color: #b0cadb;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    
+}
+header a {
+    font-size: .8em;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    border: 2px #b0cadb solid;
+}
+.small {
+    color: #aaa;
+    font-size: 0.8em;
+    border-bottom: 1px rgb(184, 181, 181) solid;
+    margin-bottom:20px;
+    padding-top: 30px;
+    
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -25px;
+}
+
+.wrapper {
+    width: 70%;
+    float: left;
+    margin-left: 3%;
+    line-height: 30px;
+    
+}
+p {
+    color: #535353;
+    
+}
+
+.for-gray {
+    color: #aaa;
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+.under-icon {
+    font-size: .8em;
+    padding: 2px 10px;
+    color: #fff;
+}
+
+.css  {
+    border: 1px #5aba59 solid;
+    background: #5aba59;
+}
+
+.java  {
+    border: 1px #4d85d1 solid;
+    background: #4d85d1;
+}
+
+.js  {
+    border: 1px #df2d4f solid;
+    background: #df2d4f;
+}
+
+.section3 {
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.tow-pic1  {
+    margin-top: 20px;
+    width: 48%;
+}
+.tow-pic  {
+    width: 48%;
+    margin-left: 2%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+
+}
+footer {
+    text-align: center;
+    margin-top: 70px;
+    font-size: .8em;
+}
+
+footer a {
+    margin: 20px;
+    color: #aaa;
+}
