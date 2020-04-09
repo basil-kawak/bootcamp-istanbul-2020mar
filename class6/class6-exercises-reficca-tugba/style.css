@@ -1,0 +1,175 @@
+* {
+    box-sizing: content-box;
+    /*margin: 0; when margin added, <hr> items' position moves we dont know why*/
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body #first {
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+    opacity: 0.9;
+    filter: contrast(50%);
+    background-size: cover;
+}
+
+header p {
+    position: static;
+    color: wheat;
+    float: left;
+    width:70px;
+    padding:8px;
+    margin-right: 5px;
+}
+
+nav li {
+    float: right;
+    list-style-type: none;
+    width:70px;
+    padding:10px;
+    margin-right: 5px;
+}
+
+body #second {
+    background-color: rgb(238, 80, 40);
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.title hr, #third hr, #contact hr {
+    width: 25px;
+    color: orangered;
+}
+
+#second hr {
+    width: 25px;
+    color: white;
+}
+
+.title button {
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+#second button {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+#first a {
+    color: white;
+    text-decoration: none;
+}
+
+#second a {
+    color: black;
+    text-decoration: none;
+}
+
+#second {
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+#third {
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+
+#third hr {
+    width: 25px;
+    color: orangered;
+}
+
+h3, p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+body #download {
+    background-color: rgb(59, 56, 56);
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#download button {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+
+#download a {
+    color: black;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding-bottom: 50px;
+    padding: 100px 0;
+}
+
+#contact hr {
+    width: 25px;
+    color: orangered;
+}
+
+#contact section {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    background-color: whitesmoke;
+    color: grey;
+    display: flex;
+    text-align: center;
+}
+
+section a {
+    text-decoration: none;
+    color: orangered;
+}
+
+div #photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.otherrow {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}

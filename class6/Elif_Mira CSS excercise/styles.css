@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* NAVBAR  */
+nav ul {
+  list-style: none;
+  background-color: transparent;
+  text-align: right;
+  padding: 0;
+  margin-bottom: 10px;
+}
+nav ul .home {
+  text-align: left;
+  margin-right: 70%;
+  margin-left: 0;
+  color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8em;
+  height: 40px;
+}
+ 
+nav a {
+  text-decoration: none;
+  color: bisque;
+  display: block;
+  transition: .3s background-color;
+  margin-left: 5px;
+}
+nav li {
+  display: inline-block;
+}
+
+/* HR */
+hr {
+  width: 10%;
+  border: 2px solid #F4623A;
+  margin: 20px 0;
+  margin-left: 45%;
+  text-align: center;
+}
+
+/* SECTIONS */
+.Section-1 {
+  margin: 0;
+  padding: 3% 5%;
+  background-image: url("https://files.slack.com/files-pri/TRG8KC72A-F010ZRY8YJX/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  opacity:  0.8;
+}
+.sub-section-1 {
+  padding: 10% 20%;
+  margin: auto;
+  line-height: 2rem;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+#section-2{
+  background-color: #F4623A;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin:0 auto;
+  padding: 3% 5%;
+}
+#section-2 h4{
+  color: #FFFFFF;
+}
+#section-2 p{
+  color:#F9AE9C ;
+
+} 
+#sub-section-2{
+  width: 50%;
+  margin: 0 auto ;
+}
+#section-2 hr{
+  border: 2px solid #FFFFFF;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 50px 80px;
+  margin-right: 20px;
+}
+
+.section-3 {
+  margin: 50px 0;
+  font-family: Helvetica, sans-serif;
+}
+
+
+.service {
+  text-align: center;
+  display: inline;
+  margin: 3px;
+  width: 80%;
+}
+#download {
+  height: 300px;
+  background-color: #333940;
+  color: #fff;
+  text-align: center;
+  clear: both;
+}
+.download-txt {
+  padding-top: 90px;
+  z-index: 2;
+}
+.download-txt h3 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 2rem;
+}
+.section-4 {
+  clear: both;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* IMAGES */
+.row {
+  width: 33.33%;
+  height: 180px;
+  display: grid;
+  float: left;
+  
+}
+/* BUTTON */
+
+.button1 {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #F4623A;
+  border: none;
+  border-radius: 35px;
+}
+.button2 {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color:#fff;
+  border: none;
+  border-radius: 35px;
+  font-family:  Arial;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* ICON */
+.icon {
+  color: #F4623A;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #f78374;
+}
+/* /////////////contact/////////////// */
+#contact{
+  background-color: #FFFFFF;
+  width: 50%;
+  margin:0 auto;
+  height:400px;
+}
+#contact h3{
+  padding-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #2C2529;
+
+
+}
+#contact p{
+  color: #6C757D;
+}
+/* ///////////contact-icon////////// */
+#contact-icon{
+
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+ 
+}
+#contact-icon div{
+  width: 50%;
+  justify-content: center;
+}
+#contact-icon i{
+  color: #6C757D;
+  font-size: 30px;
+  padding-bottom: 10px;
+  
+
+}
+#contact-icon p:hover {
+  color: #f78374;
+}
+/* ////////////FOOTER//////// */
+footer{
+  background-color: #F8F9FA;
+  height: 50px;
+  padding-top: 10px ;
+  font-size: 10px;
+  color: #6C757D;
+}
