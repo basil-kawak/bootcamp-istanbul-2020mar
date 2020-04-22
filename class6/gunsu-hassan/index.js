@@ -1,5 +1,3 @@
-
-
 let varOne= 5;
 isDivByFive(varOne);
 varOne = 55;

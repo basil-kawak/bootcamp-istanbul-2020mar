@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#container1 {
+
+}
+
+#container2 {
+    color: coral;
+}
+
+#container3 {
+    margin:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: #d2f1f2;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+input {
+    width: 75px;
+    height: 15px;
+}
+
+#storyInput {
+    width: 95%;
+    font-size: large;
+    font-weight: 500;
+    background-color: #d2f1f2;
+    line-height: 1.5em;
+    flex-direction: wrap;
+    display: inline;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+#container4 {
+    color: rgb(236, 112, 67);
+}
+
+
+#container5 {
+    margin:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: #6ee9af;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.madLibsPreview {
+    width: 95%;
+    font-size: large;
+    font-weight: 500;
+    background-color: #6ee9af;
+    line-height: 1.5em;
+    flex-direction: wrap;
+    display: inline;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+input:focus {
+      background: #ffc787;
+}
+
+
+/**
+ * Your CSS goes here.
+ */

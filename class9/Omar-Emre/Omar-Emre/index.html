@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gsap</title>
+</head>
+<body>
+
+    <div class="popup" id="popup1">
+           
+        <div class="popup__content">
+           <a href="#body" class="popup__content-close">&times;</a>
+           <div class="sides">
+            <div class="left-side">
+                <h1>Area</h1>
+                <h2 id="solution1"></h2>
+            </div>
+            <div class="right-side">
+                <form action="#">
+                    <div class="form-box">
+                        <label>Calculate area of circle with radius: </label>
+                        <input type="number" id="area-input" size="2">
+                        <button id="area-button" class="btn-content">Calculate</button>
+                    </div>
+                </form>
+            </div>
+          
+          
+        </div>
+    </div>
+    </div>
+    <div class="popup" id="popup2">
+           
+        <div class="popup__content">
+            <div class="sides">
+                <div class="left-side">
+                    <h1>square and half</h1>
+                    <h2 id="solution2"></h2>
+                </div>
+                <div class="right-side">
+
+                    <form action="#">
+                        <div class="form-box">
+                            <label id="sqaure">Square this number:</label>
+                            <input type="number" name="square" id="square-input" size="2">
+                            <button id="square-button" class="btn-content">Calculate</button>
+                        </div>
+                        <div class="form-box">
+                            <label id="half">Half this number:</label>
+                            <input type="number" name="half" id="half-input" size="2">
+                             <button id="half-button" class="btn-content">Calculate</button> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+           
+           <a href="#body" class="popup__content-close">&times;</a>
+           
+        </div>
+    </div>
+
+    <div class="popup" id="popup3"> 
+        <div class="popup__content">
+            <div class="sides">
+                <div class="left-side">
+                    <h1>Friction</h1>
+                    <h2 id="solution3"></h2>
+                </div>
+                <div class="right-side">
+                    <form action="#">
+                        <div class="form-box">
+                            <label id="p1"> Fraction: </label>
+                            <input type="number" name="p1" id="percent1-input" size="2">
+                        </div>
+                        <div class="form-box">
+                            <label id="p2">Whole: </label>
+                            <input type="number" name="p2" id="percent2-input" size="2">
+                        </div>
+                         <div class="form-box">
+                            <button id="percent-button" class="btn-content">Calculate</button>
+                         </div>
+                    </form>
+                </div>
+            </div>
+           <a href="#body" class="popup__content-close">&times;</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div id="bg-1">
+            <a href="#popup1" class="btn">Area</a>
+        </div>
+        <div id="bg-2">
+            <a href="#popup2" class="btn" id="mBtn">sqaure & half</a>
+        </div>
+        <div id="bg-3">
+            <a href="#popup3" class="btn">friction</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
