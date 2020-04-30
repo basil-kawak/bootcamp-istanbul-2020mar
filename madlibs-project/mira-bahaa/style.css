@@ -1,0 +1,111 @@
+.useflex {
+  display: flex;
+  justify-content: center;  
+  color: #acdae6; 
+  margin-top: 60px;
+  font-family: Goudy Old Style;
+  font-weight: 600;
+} 
+body {
+ background-image: url("https://www.publicdomainpictures.net/pictures/80000/velka/little-red-riding-hood.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: larger;
+  margin: 20px; 
+}
+/*/////////////// NAVBAR//////////// */
+#main .navbar-brand{
+  color: #c1e1e8 ;
+  font-size: 1.5rem;
+  font-weight: 150; 
+
+}
+#main .nav-link{
+  color: white;
+}
+#main .nav-link:hover{
+  color: #c1e1e8 ;
+}
+#main{
+  font-size: 1.5rem;
+  font-weight: 100; 
+  background-color:  #00000099;  
+}
+
+/* /////////////INPUTS//////////// */
+.madLibsEdit{
+  margin: 1em;
+  color: #CCA471;
+  background-color: #00000080;
+  border-radius: .5rem;
+  font-family: Goudy Old Style;
+  padding:0.5em; 
+}
+.madLibsPreview {
+  margin: 1em;
+  color: #fcfcfc;
+  background-color: #00000080;
+  border-radius: .5rem;
+  padding:0.5em;
+  font-family: Goudy Old Style;
+   
+}
+
+/* ///////////////MEDIA QUERY/////////// */
+@media (min-width: 1000px) {
+  .useflex{
+      font-size: 300%;
+    
+  }
+  .madLibsEdit, .madLibsPreview{
+      font-size: 150%;
+  }
+}
+@media (max-width: 775px) {
+  .useflex{
+      font-size: 200%;
+  }
+  .madLibsEdit, .madLibsPreview{
+      font-size: 150%;
+  }
+}
+
+@media (max-width: 624px) {
+  .useflex {
+      font-size: 150%;
+  }
+  .madLibsEdit, .madLibsPreview{
+    font-size: 100%;
+  }
+} 
+
+/* /////////////text box///////// */  
+input[type=text] {
+  position: relative;
+  left: 0;
+  border: 0;
+  border-radius: .25rem;
+  background-color: #ffffff;
+  font-size: 16px;
+  margin: 2px;
+  padding: 1px;
+  width: 10%;
+}
+input[type=text]:focus{ 
+  background: #CCA471;
+}
+/* //////////FOOTER/////// */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-color: #2e3333;
+  border-top: 0.5px outset #c1e1e8;
+}

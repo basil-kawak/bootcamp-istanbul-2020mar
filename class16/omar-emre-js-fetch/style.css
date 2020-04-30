@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+:root {
+	--content: "";
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+body {
+	width: 100%;
+	display: table-cell;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+#github-container {
+	display: flex;
+	width: calc(100% - 20px);
+	justify-content: space-evenly;
+}
+
+ul {
+	list-style: none;
+}
+#main::before {
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: url(./github.svg);
+	margin-top: 10px;
+}
+#main h2 {
+	margin-top: 80px;
+	margin-bottom: 10px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2.5px;
+}
+#github-form {
+	margin-bottom: 20px;
+}
+#user-list {
+	width: 50%;
+	max-width: 400px;
+}
+#user-list li {
+	height: 120px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	border: 1px white solid;
+	position: relative;
+	margin-bottom: 20px;
+	max-width: 400px;
+}
+#user-list li p {
+	width: calc(100% - 45px);
+	height: 25px;
+	align-self: flex-end;
+	background-color: #f6f8fa;
+	border: 1px solid #d1d5da;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	order: 1;
+	border-bottom: 0px;
+	padding: 4px 0 2px 15px;
+	font-weight: bolder;
+	font-size: 85%;
+}
+#user-list li p::before,
+::after {
+	position: absolute;
+	top: 11px;
+	left: 30px;
+	display: block;
+	width: 0;
+	height: 0;
+	content: " ";
+	pointer-events: none;
+	border-color: transparent;
+	border-style: solid solid outset;
+}
+#user-list li p::before {
+	border-width: 8px;
+	border-right-color: #d1d5da;
+}
+#user-list li p::after {
+	margin-top: 1px;
+	margin-left: 2px;
+	border-width: 7px;
+	border-right-color: #f6f8fa;
+}
+#user-list li img {
+	align-self: flex-start;
+	margin-right: 15px;
+}
+#user-list li a {
+	align-self: center;
+	order: 2;
+	margin-left: 45px;
+	width: calc(100% - 45px);
+	height: calc(100% - 25px);
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	pointer-events: none;
+	cursor: default;
+}
+#user-list li a::before {
+	content: "Profile";
+	position: absolute;
+	font-size: 80%;
+	padding: 5px 20px;
+	top: 70%;
+	left: 44%;
+	border: 1px solid rgba(27, 31, 35, .2);
+	border-top-color: rgba(27, 31, 35, 0.2);
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: rgba(27, 31, 35, 0.2);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: rgba(27, 31, 35, 0.2);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgba(27, 31, 35, 0.2);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	border-radius: .25em;
+	border-top-left-radius: 0.25em;
+	border-top-right-radius: 0.25em;
+	border-bottom-right-radius: 0.25em;
+	border-bottom-left-radius: 0.25em;
+	pointer-events: auto;
+	cursor: pointer;
+}
+#repos-list {
+	width: 50%;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	visibility: hidden;
+}
+#repos-list::before {
+	content: "User's Repository List";
+	padding: 8px 8px 8px 30px;
+	background-color: #f6f8fa;
+	border: 1px solid #d1d5da;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	position: relative;
+	height: 20px;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+	background-image: url(https://api.iconify.design/octicon-telescope.svg);
+	background-size: 15px;
+	background-position: 2% 50%;
+	max-width: 500px;
+	background-repeat: no-repeat;
+}
+#github-container ul {
+	padding: 0 10px;
+}
+#repos-list li {
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% + 40px);
+	border: 1px solid #d1d5da;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top: none;
+}
+#repos-list li p {
+	padding-bottom: 20px;
+	position: relative;
+	width: calc(100% - 44px);
+	align-self: flex-start;
+	padding-left: 35px;
+	font-family: 'Crimson Text', serif;
+	font-size: 103%;
+}
+#repos-list li a {
+	font-size: 90%;
+}
+#repos-list li p::before {
+	position: absolute;
+	content: url(https://api.iconify.design/octicon:repo.svg?height=16);
+	vertical-align: -0.125em;
+	left: 3%;
+	padding-top: 5px;
+}
+.iconSPAN {
+	content: url(https://api.iconify.design/octicon:repo.svg?height=16);
+	vertical-align: -0.125em;
+	padding-right: 10px;
+	float: right;
+	cursor: pointer;
+}
+.nullSPAN {
+	display: block;
+	height: 20px;
+}
+.nullSPAN::before {
+	content: "(This user did not set any name for the repo.)";
+	display: block;
+	position: relative;
+	font-style: oblique;
+	font-size: 92%;
+}
+.first {
+	min-height: 150px !important;
+	position: relative;
+}
+.svganimate {
+	position: absolute;
+	display: block;
+	min-width: 100%;
+	min-height: 25%;
+	max-height: 30%;
+	left: 0;
+	top: 0;
+	text-align: center;
+	padding-top: 10px;
+	background-color: rgba(12, 95, 154, 0.84);
+	color: white;
+	text-transform: uppercase;
+	background-image: url(./svg-animate/bike.svg), url(./svg-animate/rocket.svg), url(./svg-animate/saturn.svg),
+		url(./svg-animate/sun.svg);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	animation: bobble 1s infinite alternate;
+	background-position: top 2px right 2%, top 2px right 15%, bottom 2px left 20%, bottom 2px left 5%;
+	box-shadow: -2px 8px 15px -2px rgba(0, 0, 0, 0.45);
+}
+.first p {
+	padding-top: 20px;
+}
+#elementToAnimate.animate {
+	transition: left 500ms ease-in-out, top 500ms ease-in-out;
+}
+/*document.getElementById("animate").addEventListener("click", function(){
+  let e = document.getElementById('elementToAnimate');
+
+  e.classList.add("animate");
+  setTimeout(()=> e.classList.remove("animate"), 500);
+
+  e.style.top = Math.floor(Math.random() * window.innerHeight) + 'px';
+  e.style.left = Math.floor(Math.random() * window.innerWidth) + 'px';
+});
+
+document.getElementById("dontAnimate").addEventListener("click", function(){
+  let e = document.getElementById('elementToAnimate');
+
+  e.style.top = Math.floor(Math.random() * window.innerHeight) + 'px';
+  e.style.left = Math.floor(Math.random() * window.innerWidth) + 'px';
+});*/

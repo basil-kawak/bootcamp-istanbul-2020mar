@@ -12,7 +12,8 @@ Please read these instructions and prepare some thoughts on these for your demo.
 
 * Show us your story and your work.
 * All members must speak about and explain some part of the code that they
-  wrote.
+  wrote. **Remember the requirement that every member must be able to
+  to explain any part of the code**.
 * What were the three hardest problems that you faced?
 * Reflection: all of the members must speak about what stood out to them
   about their learnings from the project. It can be abstract ("I learned how to

@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Lato';
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(155deg, #53a2be 0%, #53a2be 50%, #176087 50%, #176087 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.row {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+}
+
+.input,
+.story {
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 15;
+  padding: 20px;
+  font-size: 23px;
+  line-height: 35px;
+}
+
+h1 {
+  color: #0a2239;
+  font-size: 40px;
+  z-index: 10;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 50px;
+  margin-left: 5px;
+}
+
+input:focus {
+  border-bottom: 3px solid blue;
+  outline: none;
+}
+
+p {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+}
+
+/**********Resposive*************/
+
+@media only screen and (max-width: 1180px) {
+  .row {
+    max-width: 1000px;
+  }
+  .input,
+  .story {
+    height: 60%;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .row {
+    max-width: 800px;
+  }
+
+  .input,
+  .story {
+    height: 60%;
+    font-size: 18px;
+    line-height: 23px;
+    overflow: scroll;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .row {
+    max-width: 700px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .input,
+  .story {
+    height: 40%;
+    width: 70%;
+    overflow: scroll;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    max-width: 450px;
+  }
+
+  .input,
+  .story {
+    height: 40%;
+    width: 90%;
+    overflow: scroll;
+
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .row {
+    max-width: 350px;
+  }
+
+  .input,
+  .story {
+    height: 40%;
+    width: 90%;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 20px;
+    overflow: scroll;
+  }
+}
+@media only screen and (max-height: 750px) {
+  .input,
+  .story {
+    overflow: scroll;
+  }
+}
+/*
+  1-live update 
+  2-resposive
+  3-[n] [v] [a]
+  4-hotkeys 
+  5- focus 3 types
+  */
+
+/*
+  exrta
+  1- type effect 
+  2- animation 
+  3- random stories 
+  */
