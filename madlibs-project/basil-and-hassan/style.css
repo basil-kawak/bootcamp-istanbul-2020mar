@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #ff90ce, #f594da, #ea99e5, #dd9eef, #cea3f7, #cea3f7, #cda4f6, #cda4f6, #daa0ee, #e69be5, #f097db, #f994d0);
+  height: 100vh;
+}
+
+header h1 {
+  margin-top: 50px;
+  font-family: "Patrick Hand";
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.madLibsEdit {
+    font-family: "Fira Sans";
+    width: 40%;
+    margin: 50px 15px;
+    padding: 20px 40px;
+    border: 1px solid #0000005c;
+    border-radius: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow:
+  0 0.9px 0.9px -15px rgba(0, 0, 0, 0.042),
+  0 2.1px 2.2px -15px rgba(0, 0, 0, 0.061),
+  0 4px 4.1px -15px rgba(0, 0, 0, 0.075),
+  0 7.1px 7.4px -15px rgba(0, 0, 0, 0.089),
+  0 13.4px 13.8px -15px rgba(0, 0, 0, 0.108),
+  0 32px 33px -15px rgba(0, 0, 0, 0.15)
+;
+
+  }
+  
+  .madLibsEdit input[type = "text"] {
+    border: none;
+    color: #13b15f;
+    background-color: transparent;
+    margin-left: 3px;
+    text-align: left;
+    transition: .3s all ease-in-out;
+    font-size: 14px;
+    width: 50px;
+  }
+  
+  .madLibsEdit input[type="text"]::placeholder {
+    color: rgba(119, 119, 119, 0.5);
+    font-size: 0.8em;
+  }
+  
+  .madLibsEdit input[type="text"]:focus {
+    outline: none;
+    border-bottom: 1px solid #d65600;
+  }
+  
+  .madLibsPreview {
+    font-family: "Patrick Hand";
+    width: 60%;
+    margin: 50px 15px;
+    padding: 20px 40px;
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .madLibsPreview input[type="text"] {
+    border: none;
+    color: rgb(26, 71, 167);
+    background-color: transparent;
+    margin-left: 3px;
+    text-align: left;
+    transition: .3s all ease-in-out;
+    font-size: 14px;
+    width: 45px;
+  }
+  
+  .madLibsPreview input[type="text"]::placeholder {
+    color: #fff;
+  }
+  
+  .madLibsPreview input[type="text"]:focus {
+    outline: none;
+    border: none;
+  }
+
+/*   .input-value {
+    color: #eaeaea;
+  } */
+
+  .input-prev {
+    color: tomato;
+  } 
+
+@media(max-width: 768px) {
+
+  body {
+    height: 100%;
+  }
+
+  .madLibsEdit {
+    width: 80%;
+    margin: 20px 10px;
+  }
+
+  .madLibsPreview {
+    width: 80%;
+    margin: 20px 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
