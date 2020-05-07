@@ -1,0 +1,213 @@
+
+
+/* >>>>>>> This is Yemen Css Code <<<<<< */
+
+	header{
+	   margin: 30px;
+	   color: whitesmoke;
+	   position:relative;
+	   font-size: 35px;
+	   font-family:Arial, Helvetica, sans-serif;
+	   font-weight : bold;
+	   text-align: left;
+	}
+
+	body{
+	 background-image: url("https://images.unsplash.com/photo-1568647828110-2f18d3842568?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	   background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+	   // width: 100%;
+	  height: 500px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	  //  display:flex;
+	   }
+
+	.madLibsEdit{
+	  font-family:Arial, Helvetica, sans-serif;
+	  top:-2px;
+		position: absolute; 
+		  left: -40px;
+		margin: 50px;
+		font-family: Times;
+		font-size: 20px; 
+		padding: 40;
+		display: inline-table;
+		color: white;
+	   }
+
+	.madLibsEdit input, .madLibsEdit p{
+		padding: auto auto;
+		display: inline-block;
+		text-align: center;
+		margin: 20px 1px;
+	  }
+
+	.madLibsPreview{
+	font-family: Arial, Helvetica, sans-serif;
+	  top: 70px;
+		position:fixed;
+		padding:50px;
+		bottom: 110px;
+		right: 150px;
+		width: 300px;
+		font-size: 20px;
+		color:rgb(245, 196, 132);
+		display:inline-block;
+		text-align: right;
+	}
+		input{
+		font-size: 15px;
+		color:brown;
+		width: 12.5%;
+		 background:white;
+		height: 25px;
+		}
+
+
+	footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  color: #fff;
+	  }
+
+
+	/* ----------- Non-Retina Screens ----------- */
+	@media screen 
+	  and (min-device-width: 1200px) 
+	  and (max-device-width: 1600px) 
+	  and (-webkit-min-device-pixel-ratio: 1) { 
+	}
+
+	/* ----------- Retina Screens ----------- */
+	@media screen 
+	  and (min-device-width: 1200px) 
+	  and (max-device-width: 1600px) 
+	  and (-webkit-min-device-pixel-ratio: 2)
+	  and (min-resolution: 192dpi) { 
+	}
+
+	/* Portrait and Landscape */
+	@media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px) 
+	  and (-webkit-min-device-pixel-ratio: 1) {
+
+	}
+
+	/* Portrait */
+	@media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px) 
+	  and (orientation: portrait) 
+	  and (-webkit-min-device-pixel-ratio: 1) {
+
+	}
+
+	/* Landscape */
+	@media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px) 
+	  and (orientation: landscape) 
+	  and (-webkit-min-device-pixel-ratio: 1) {
+
+	}
+
+	/* ----------- iPad 3, 4 and Pro 9.7" ----------- *//*
+
+	/* Portrait and Landscape */
+	@media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* Portrait */
+	@media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px) 
+	  and (orientation: portrait) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* Landscape */
+	@media only screen 
+	  and (min-device-width: 768px) 
+	  and (max-device-width: 1024px) 
+	  and (orientation: landscape) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* ----------- iPad Pro 10.5" ----------- */
+
+	/* Portrait and Landscape */
+	@media only screen 
+	  and (min-device-width: 834px) 
+	  and (max-device-width: 1112px)
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+
+	/* Portrait */
+	/* Declare the same value for min- and max-width to avoid colliding with desktops *//*
+	/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*//*
+	@media only screen 
+	  and (min-device-width: 834px) 
+	  and (max-device-width: 834px) 
+	  and (orientation: portrait) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* Landscape */
+	/* Declare the same value for min- and max-width to avoid colliding with desktops *//*
+	/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*//*
+	@media only screen 
+	  and (min-device-width: 1112px) 
+	  and (max-device-width: 1112px) 
+	  and (orientation: landscape) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* ----------- iPad Pro 12.9" ----------- */
+
+	/* Portrait and Landscape */
+	@media only screen 
+	  and (min-device-width: 1024px) 
+	  and (max-device-width: 1366px)
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* Portrait */
+	/* Declare the same value for min- and max-width to avoid colliding with desktops */
+	/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+	@media only screen 
+	  and (min-device-width: 1024px) 
+	  and (max-device-width: 1024px) 
+	  and (orientation: portrait) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+	/* Landscape */
+	/* Declare the same value for min- and max-width to avoid colliding with desktops */
+	/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+	@media only screen 
+	  and (min-device-width: 1366px) 
+	  and (max-device-width: 1366px) 
+	  and (orientation: landscape) 
+	  and (-webkit-min-device-pixel-ratio: 2) {
+
+	}
+
+

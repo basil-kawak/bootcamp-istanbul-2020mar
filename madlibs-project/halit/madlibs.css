@@ -1,0 +1,209 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 80px;
+  margin-bottom:-5px;
+  color: #ECA400;
+  text-align: center;
+}
+hr{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  border-color:orange;
+  width: 15%;
+  margin: 0 auto 5.5%;
+}
+h1 span{
+  color: #006992;
+  margin-left: -3px;
+}
+nav ul.show{
+  transform: translateX(-20px);
+}
+.menu-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+  color: #ECA400;
+}
+
+#search{
+  margin-top: 10px;
+  width: 70%;
+}
+#search:hover{
+  border-bottom: 5px solid #ECA400;
+  width: 35px;
+  height: 35px;
+  transition: all .9s ease;
+
+}
+nav a:hover{
+  border-bottom: 5px solid #ECA400;
+  font-size: 25px;
+  transition: all .9s ease;
+}
+nav a{
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+a{
+  text-decoration: none;
+  color: #ECA400;
+}
+body{
+  background: url('/background.jfif') no-repeat center center/cover;
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'lobster';
+  
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+padding: 15px;
+}
+
+
+header{
+  padding: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 90px;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.madLibsEdit {
+  background:rgba(236,164,0,0.8);
+  height: 50vh;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  font-family: monteserat;
+  font-size: 20px;
+  color: rgb(0,105,146);
+  font-weight: bold;
+  padding: 20px;
+}
+
+.madLibsEdit input, .madLibsEdit p{
+  display:inline-block;
+  text-align: center;
+  margin-bottom: 18px;
+  margin-right: 5px;
+  
+}
+
+.madLibsPreview{
+  background: rgba(0,105,146, 0.8);
+  text-align: center;
+  height: 50vh;
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+  font-family: monteserat;
+  font-size: 20px;
+  color: #ECA400;
+  font-weight: bold;
+}
+
+.madLibsPreview span,.madLibsPreview p{
+  padding: auto auto;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+input{
+  border-radius: 5px;
+  width: 13.5%;
+  border: 1px solid;
+  font-family: inherit;
+  font-weight: 700;
+  color: #ECA400;
+  font-size: 20px;
+}
+input:focus{
+  background: rgba(0,105,146, 1);
+  transition: background 1s ease-out;
+}
+
+input::placeholder{
+  font-size: 15px;
+ 
+}
+
+@media only screen and (max-width:1200px){
+  .madLibsEdit, .madLibsPreview{
+    overflow: scroll;
+  }
+}
+
+@media only screen and (max-width:1050px){
+
+  nav a{
+    font-size: 18px;
+  }
+  h1, h1 span {
+    font-size: 65px;
+  }
+  
+  .madLibsEdit, .madLibsPreview{
+    font-size: 15px;
+    
+  }
+  input::placeholder{
+    font-size:13px;
+  }
+ 
+}
+
+@media only screen and (max-width:750px){
+  .menu-btn{
+    display: block;
+  }
+  nav ul{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #006992;
+    width: 50%;
+    height: 100%;
+    transform: translateX(-500px);
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+
+  .wrapper{
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+  .madLibsEdit, .madLibsPreview{
+    height: 250px;
+   
+  }
+}

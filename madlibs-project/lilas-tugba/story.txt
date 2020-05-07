@@ -1,0 +1,8 @@
+Hi! My name is Eman[n]. 
+I am living in Istanbul[n] and I am a student at Istanbul[n] University. 
+Currently, I am a fellow at Re:Coded Front-End Web Develpment Bootcamp.
+I am currently learning different web development languages
+ such as Css[n], Html[n],and JavaScript[n]. 
+I enjoy[v] coding because it gives me the freedom to be creative[a]. 
+I believe that this bootcamp will bring me a lot 
+of good[a] memories and good[a] friends.
