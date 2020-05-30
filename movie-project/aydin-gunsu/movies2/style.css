@@ -1,0 +1,277 @@
+nav button:hover{
+    opacity: 50%;
+
+}
+html, body {
+    height: 100%;
+}
+
+.fill { 
+    min-height: 100%;
+    margin: 25px;
+}
+nav a:hover{
+    opacity: 50%;
+    text-decoration: none;
+    color: white;
+
+}
+.actedIn{
+    padding: 30px;
+    border: none;
+}
+div.actedIn{
+    padding: 30px;
+    border: none;
+}
+.actedIn li{
+    padding: 30px;
+    border: 0px;
+    font-weight: bold;
+}
+
+#filtersDropDown{
+    background-color: transparent;
+    border: 0px;
+}
+#genresDropDown{
+    background-color: transparent;
+    border: 0px;
+}
+.hidden{
+    display: none;
+}
+.hidden h3{
+    display: inline;
+}
+
+.visible:hover .hidden{
+    display: inline;
+    -webkit-transition: display 0.3s; 
+}
+img{
+    cursor:pointer;
+}
+.container {
+    padding-top: 63px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.container img {
+    width: 280px;
+    -webkit-transition: width 0.3s; 
+
+}
+.container h3 {
+    font-size: 17px;
+
+}
+.container div {
+    text-align: center;
+}
+div.movie-title{
+    width: 100%;
+    text-align: center;
+}
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+div.under-trailer{
+    display: flex;
+    align-items: center;
+}
+
+#actors li{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px black solid;
+    box-shadow: black;
+    margin: 15px;
+
+    
+   
+}
+.visible {
+    box-shadow: -10px 10px 5px grey;
+    margin: 5px;
+    padding: 5px;
+    border: orange solid;
+    width: 100%;
+}
+
+
+ul#actors {
+    list-style: none;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+#actors img{
+    width:55px;
+}
+
+a img{
+    border: none;
+}
+#github a{
+    border: none;
+}
+a{
+    color: white;
+    padding: 3px;
+}
+select{
+  width: auto;
+  color: white;
+
+}
+
+option{
+  background-color: #f87f07;
+}
+.navbar p{
+    color: white;
+}
+button{
+    background-repeat:no-repeat;
+    background-color: transparent;
+    border: none;   
+    padding: 3px;
+    cursor:pointer;
+    overflow: hidden;   
+    color: white;
+}
+
+
+#actors {
+    margin: 24px 16px 0 0;
+}
+input.searchInput{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.other-infos img{
+    width: 100px;
+}
+img.movie:hover{
+     
+    width: 260px;
+    -webkit-transition: width 0.5s;
+    z-index: -2;
+}
+
+.related-movies h4{
+   font-size:14px;
+
+}
+
+.related-movies img:hover{
+    width:160px;
+}
+div.creation{
+    display: flex;
+    align-items: center;
+}
+
+#movie-backdrop{
+    width: 100%;
+    border: 5px solid black;
+}
+div.related-movies{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 25px 0px;
+}
+.related-movies img{
+   width:180px;
+
+}
+
+div#production-company{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+   
+}
+#production-company h4{
+    margin:10px;
+}
+#production-company img {
+    margin: 10px;
+    width: 70px;
+}
+
+
+.navbar {
+    display: flex;
+    height: 60px;
+    padding-left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    align-items: flex-end;
+    z-index: 42;
+    background-image: linear-gradient(45deg, #f87f07, #ff0000);
+}
+.navbar nav{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#logo img{
+    width: 40px;
+}
+#others{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+#others * {
+    margin: 2px 4px;
+}
+
+
+/*styling the footer*/
+.footer {
+    clear: both;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 110px;
+    
+    position: relative;
+    background-image: linear-gradient(45deg, #f87f07, #ff0000);
+    
+}
+footer img {
+	width: 26px;
+}
+#recoded h3 {
+
+    color: #e5e7e9;
+}
+#github a {
+	width: 26px;
+	height: 26px;
+	margin: 10px;
+}
+footer h3 {
+	font-size: 80%;
+}
+footer br {
+	display: none;
+}
+

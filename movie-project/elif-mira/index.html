@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	 crossorigin="anonymous">
+	<!-- CSS  -->
+	<link rel="stylesheet" href="style.css">
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="./images/play-1.png" type="image/x-icon">
+	<!-- FONT AWESOME ----->
+	<script src="https://kit.fontawesome.com/5191249231.js" crossorigin="anonymous">
+	</script>
+	<!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+	<title>Movie</title>
+</head>
+
+<body>
+	<div class="headline">
+		<!-- NAVBAR  -->
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+      <a class="navbar-brand" href="#" id='navHome'>
+        <img class="brand-img" src="./images/play-1.png" alt=""> MovieLab
+      </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Movies
+            </a>
+            <div id="genresDropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a id="actorListBtn" class="nav-link">Actors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Filter
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#" onclick="runFilter('popular')">Popular</a>
+              <a class="dropdown-item" href="#" onclick="runFilter('latest')">Relase date</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#" onclick="runFilter('top_rated')">Top Rated</a>
+              <a class="dropdown-item" href="#" onclick="runFilter('now_playing')">Now Playing</a>
+              <a class="dropdown-item" href="#" onclick="runFilter('upcoming')">Up Coming</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="aboutPageRender()">About Us</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="form-inline mr-5 my-2 my-lg-0">
+          <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" id="searchBtn" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+  </div>
+
+    <div class="wrapper">
+      <!-- This contains the movies -->
+    </div>
+
+    <!-- FOOTER  -->
+    <footer class="contact-section" id="footer">
+        <div class="icon-3">
+          <a href="https://github.com/eliftabak" target="_blank"><i class="icon-social fab fa-github"></i></a>
+           <a href="https://www.instagram.com/elifchorghay/" target="_blank"><i class="icon-social fab fa-instagram"></i></a>
+          |
+          <a href="https://github.com/MiraAr" target="_blank"><i class="icon-social fab fa-github"></i></a>
+          <a href="https://www.instagram.com/m.arar____/" target="_blank"><i class="icon-social fab fa-instagram"></i></a>
+         
+          
+          </div>
+      <span>Made with 🤍 by Elif & Mira</span>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Bootstrap JS Files  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
