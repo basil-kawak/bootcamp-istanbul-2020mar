@@ -1,0 +1,11 @@
+.creators{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 120px;
+}
+h1{
+    padding-left: 150px; 
+}
+h2{
+    padding-left: 70px;
+}

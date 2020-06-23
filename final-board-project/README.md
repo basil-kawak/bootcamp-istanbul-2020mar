@@ -60,7 +60,7 @@ exactly what you planned out for your app.
   between "list" and "board" views of all the boards. Hint: keep a state
   variable on the container that contains two possible values. Here is an
   example of what we mean by [board](./board-example.png) and
-  [list](./list-example.png).
+  [list](./list-example.png). List-view only has to be read-only
 
 ## Checkpoints
 

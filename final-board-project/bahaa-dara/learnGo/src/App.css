@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+
+.oneCard {
+  margin-bottom: 30px;
+}
+
+.about{
+  margin-top: 14rem;
+}
+
+.contactCard{
+display:flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+.column{
+  margin-top: 30px;
+}
+.viewList{
+  margin-bottom: 20px;
+}

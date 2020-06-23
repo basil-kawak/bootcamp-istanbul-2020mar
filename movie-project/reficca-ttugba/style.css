@@ -1,0 +1,37 @@
+#movie-backdrop {
+    width: 100%;
+}
+
+.container {
+    padding-top: 32px;
+}
+
+#actors {
+    margin: 24px 16px 0 0;
+}
+
+.footer {
+    margin: 25px;
+}
+
+.footer img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#movie-div :hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.navbar {
+
+}
+
+#navbar-home {
+
+}
+
+.row{
+    padding: 2em;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  margin-top: 40px;
+}
+.header {
+  padding: 60px 60px 60px 200px;
+  text-align: center;
+  background: #410096;
+  color: white;
+  font-size: 30px;
+}
+.stepper{
+  padding-left: 200px;
+}

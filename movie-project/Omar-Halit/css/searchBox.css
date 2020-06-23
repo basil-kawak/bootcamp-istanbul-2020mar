@@ -1,0 +1,85 @@
+.search-box{
+    grid-row: 1/4;
+    grid-column: 1/4;
+    height: 28vh;
+    justify-self: end;
+    display: flex;
+    
+}
+
+#searchBar{
+    grid-row: 1/4;
+    grid-column: 1/4;
+    align-self: center;
+    width: 40rem;
+    height: 2.5rem;
+    border: .2rem solid #eee;
+    background-color: #A7BCD0;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-transform: capitalize;
+    transition: width .5s ease;
+    
+}
+
+.search-Btn{
+    grid-row: 1/4;
+    grid-column: 1/4;
+    align-self: center;
+    position: relative;
+    right: 4rem;
+    z-index: 13;
+    font-size: 2rem;
+}
+
+
+#searchBar:focus{
+    border: .2rem solid blue;
+    border-radius: 2rem;
+    width: 42rem;
+    transition: width .5s ease;
+    outline: none;
+}
+
+@media only screen and (max-width:930px){
+    #searchBar{
+        width:30rem;
+    }
+    #searchBar:focus{
+        width: 32rem;
+    }
+}
+
+@media only screen and (max-width:490px){
+    #searchBar{
+        width: 20rem;
+        height: 2rem;
+        
+    }
+
+    #searchBar:focus{
+        width: 22rem;
+    }
+
+    .search-box{
+       position: relative;
+       left: 3rem;
+    }
+}
+
+@media only screen and (max-width:390px){
+    #searchBar{
+        width: 15rem;
+        height: 1.5rem;
+        
+    }
+
+    #searchBar:focus{
+        width: 17rem;
+    }
+
+    .search-box{
+       position: relative;
+       left: 6rem;
+    }
+}

@@ -1,0 +1,339 @@
+#movie-backdrop {
+	width: 100%;
+}
+
+.container {
+	padding-top: 32px;
+}
+
+.editContainer {
+	width: 90%;
+	z-index: 1;
+}
+header {
+	height: 95px;
+}
+.row div div img {
+	width: 100%;
+	transition: all .5s;
+}
+.for-each-movie {
+	width: 100%;
+}
+.for-each-movie div {
+	filter: brightness(1);
+	overflow: hidden;
+	border-radius: 3%;
+}
+.for-each-movie div:hover img {
+	transform: scale(1.1);
+	filter: brightness(1.2) contrast(1.07);
+}
+.for-each-movie div:hover {
+	box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.69);
+}
+.row .for-each-movie .movie-title {
+	padding-top: 5px;
+	min-height: 20px;
+}
+header .navbar {
+	height: 70px;
+}
+.collapse {
+	z-index: 10;
+}
+.nav-item {
+	text-align: center;
+	font-size: 110%;
+}
+.nav-search {
+	text-align: center;
+}
+.collapse-show nav-item {
+	border-bottom: 1px solid white;
+}
+.dropdown-toggle {
+	background-color: #343a40 !important;
+	color: rgba(255, 255, 255, 0.5);
+	border: none;
+	padding: 8px;
+}
+footer .nav-item img {
+	width: 40px;
+}
+footer {
+	height: 100px;
+	position: relative;
+	z-index: 1;
+}
+.gitLogo {
+	filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.3));
+}
+.footerCredits {
+	color: rgba(255, 255, 255, .7);
+}
+.footerCredits p {
+	font-size: 90%;
+	margin: 0;
+}
+.actors-bg {
+	background-color: #2188ca !important;
+	background-image: linear-gradient(135deg, #2188ca 0%, #9599e2 100%) !important;
+}
+.person-main-info {
+	width: 20%;
+}
+.person-main-info img {
+	width: 100%;
+}
+.gatherActorH {
+	text-align: center;
+}
+.gatherActorH h2 {
+	font-size: 20px;
+}
+.bg-image {
+	overflow: hidden;
+	height: 350px;
+	transform: translateY(-27px);
+}
+#movie-backdrop {
+	background-size: cover;
+	height: 100%;
+	background-position: 0 20%;
+	filter: contrast(1.2);
+}
+#movie-backdrop::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	opacity: .5;
+	background-color: rgba(0, 0, 0);
+}
+.poster-col {
+	margin: 0 auto;
+}
+.left-movie-poster {
+	width: 200px;
+	transform: translateY(-150px);
+}
+.actor-col {
+	height: 250px;
+}
+.dropdown-menu {
+	transform: translateX(-200px);
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 700px;
+	filter: drop-shadow(0 2px 2px rgba(1, 70, 7, 0.829));
+}
+.dropdown-item {
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+.dropdown-item:hover {
+	cursor: pointer;
+	background-color: #343a40;
+	color: rgba(255, 255, 255, 0.828) !important;
+}
+.actors-list {
+	width: 100%;
+	height: 100%;
+}
+.main-actors {
+	width: 100%;
+	height: 100%;
+}
+.main-actors li {
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+}
+.main-actors a,
+.bg-dark h3 {
+	color: white;
+}
+.movie-top .row .bg-dark {
+	background-color: #2188ca !important;
+	background-image: linear-gradient(135deg, #2188ca 0%, #9599e2 100%) !important;
+}
+.main-actors li img {
+	width: 100%;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.lang-company-director {
+	height: 300px;
+	list-style: none;
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.director-item img {
+	width: 150px !important;
+	margin: 0 20px 20px 20px;
+}
+.director-item h5,
+p {
+	display: inline-block;
+}
+.director-item p {
+	padding-left: 10px;
+}
+.lang-company-director li {
+	max-height: 100%;
+}
+.lang-item {
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style: none;
+	width: 150px;
+}
+.lang-item span {
+	padding-left: 5px;
+	padding-top: 2px;
+}
+.lang-item h3 {
+	font-size: 20px;
+}
+.company-item {
+	position: absolute;
+	top: 45px;
+	right: 0;
+	list-style: none;
+}
+.company-item img {
+	width: 70px;
+	margin: 0 auto;
+}
+.company-item h3 {
+	font-size: 20px;
+}
+.company-item p {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.related-movies {
+	list-style: none;
+	margin-left: 100px;
+	margin-right: 100px;
+	color: white;
+}
+.related-movies::before {
+	content: "";
+	position: absolute;
+	width: 100vw;
+	height: 1000px;
+	max-height: 100%;
+	background-color: black;
+	z-index: -1;
+}
+.related-movies div {
+	width: 15%;
+	margin: 10px;
+	text-align: center;
+	margin-top: 30px;
+}
+#movie-overview {
+	margin-top: 20px !important;
+}
+#movie-overview {
+	width: 80%;
+}
+.singleMovie-trailer {
+	height: 420px;
+	background-color: #ff3cac;
+	background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+.movie-trailer {
+	margin-left: 450px;
+	margin-right: 450px;
+	text-align: center;
+	color: white;
+}
+.actors-list-row {
+	margin-top: 20px;
+}
+#filterMenu .dropdown-item {
+	display: block;
+}
+#filterMenu {
+	width: 100px;
+	transform: translateX(0px);
+}
+#filterMenu a.dropdown-item {
+	width: 100% !important;
+	display: block !important;
+}
+.person-main-info {
+	text-align: center;
+	margin-left: 30px;
+}
+.person-main-info img {
+	width: 100%;
+}
+.person-main-info h1 {
+	font-size: 25px;
+}
+.gatherActorH h2:nth-last-child(1) {
+	margin-top: 20px;
+}
+.person-movie-list {
+	list-style: none;
+	width: 100vw !important;
+	margin-top: 20px;
+	padding: 0;
+	position: relative;
+}
+.person-movie-list::before {
+	content: "";
+	position: absolute;
+	width: 120vw;
+	height: 6100px;
+	max-height: 100%;
+	background: black;
+	left: -100px;
+	z-index: -1;
+}
+.person-movie-list li {
+	color: white;
+	padding: 20px;
+}
+.person-movie-list h3 {
+	font-size: 22px;
+}
+.recommended-focus {
+	cursor: pointer;
+}
+.actor-movielist-cursor {
+	cursor: pointer;
+}
+#heart-logo {
+	width: 20px;
+	cursor: default !important;
+}
+@media (max-width: 576px) {
+	.footerCredits p {
+		font-size: 70%;
+	}
+	footer .nav-item img {
+		width: 35px;
+	}
+}
+@media (max-width: 430px) {
+	footer .nav-item img {
+		width: 28px;
+	}
+}
+@media (max-width: 318px) {
+	.footerCredits p {
+		font-size: 60%;
+	}
+}
